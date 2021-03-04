@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
     if args.new_gff is not None:
         orig_models = gff_reader(args.old_gff)
-        new_models = gff_reader(new_gff)
+        new_models = gff_reader(args.new_gff)
         out_models = update_gene_model(orig_models, new_models)
         gff_writer(out_models, args.out)
     if args.prefix is not None:
