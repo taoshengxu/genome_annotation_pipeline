@@ -75,6 +75,7 @@ git clone https://github.com/WangLab-SIPPE/genome_annotation_pipeline.git
 - Python
 - Perl
 - awk/sort 
+- seqkit
 
 转录组相关
 
