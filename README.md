@@ -40,21 +40,29 @@ zcat uniprot_sprot_plants.dat.gz |\
 
 ### 转录本序列
 
-#### 二代转录本
+转录组数据主要分为二代转录组（普通和链特异性）和三代转录组（PacBio和NanoPore）
 
-#### 三代转录本
+## 使用方法
 
-## 训练模型
+根据[依赖环境][#依赖环境]安装相关环境，然后下载本流程相关的代码
 
-### 训练SNAP模型
+```bash
+git clone https://github.com/WangLab-SIPPE/genome_annotation_pipeline.git
+```
 
-### 训练AUGUSTUS模型
+### 整合转录组
 
-## MAKER整合结果
+### 训练模型
 
-## PASA 调整基因模型
+#### 训练SNAP模型
 
-## Apollo 手工调整
+#### 训练AUGUSTUS模型
+
+### MAKER整合结果
+
+### PASA 调整基因模型
+
+### Apollo 手工调整
 
 
 
