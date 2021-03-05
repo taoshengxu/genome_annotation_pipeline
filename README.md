@@ -44,7 +44,7 @@ zcat uniprot_sprot_plants.dat.gz |\
 
 ## 使用方法
 
-根据[依赖环境][#依赖环境]安装相关环境，然后下载本流程相关的代码
+根据[依赖环境](#依赖环境)安装相关环境，然后下载本流程相关的代码
 
 ```bash
 git clone https://github.com/WangLab-SIPPE/genome_annotation_pipeline.git
